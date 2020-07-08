@@ -1,0 +1,266 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Navbar*/
+#navbarSupportedContent ul {
+    margin: auto auto auto auto;
+}
+
+#navbarSupportedContent ul li a{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#navbar{
+    background-color: white !important;
+}
+
+#navbar .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 0;
+}
+
+#navbar a.navbar-brand:hover img{
+    opacity: 0.5;
+}
+
+
+
+#navbar a:hover , #navbar a.active {
+    border-bottom: 2px solid gray;
+}
+
+
+/*Navbar - Ending */
+
+/*Introduction*/
+#introduction {
+    margin-top: 50px;
+}
+
+#introduction button {
+    border-radius: 20px;
+    font-weight: 700;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom-left-radius: 0;
+}
+
+#introduction h2{
+    margin-top: 20px;
+}
+
+#introduction p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#introduction #intro-contact{
+    margin-left: 20px;;
+}
+
+#introduction #intro-contact p {
+    display: inline;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+#introduction #intro-social {
+    margin-top: 20px;
+}
+
+#introduction #intro-social a{
+    margin-right: 25px;
+    border-radius: 20px;
+    padding: 10px;
+    color:black
+}
+
+#introduction #intro-social a:hover{
+    cursor: pointer;
+    color:white;
+    background-color: black;
+
+}
+
+#introduction #intro-img{
+    border-radius: 200px;
+    border: 20px solid lightgray;
+}
+
+/*About*/
+
+#about {
+    margin-top: 50px;
+}
+
+#about h3 {
+    font-weight: 600;
+}
+
+#about #about-img {
+    background:url("../images/about-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#about #download-cv {
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    margin-left: 0 !important;
+    background-color: teal;
+}
+
+
+
+
+/*End Introduction*/
+
+/*Academics*/
+
+#academics {
+    margin-top: 40px;
+}
+
+#academics .col h3 {
+    font-weight: 600;
+}
+
+#academics .academics-details {
+    padding: 30px;
+    box-shadow:  0 0 5px 5px #888;
+}
+
+/*Academics*/
+
+/*Skills*/
+
+#skills {
+    margin-top: 40px;
+}
+
+#skills h3 {
+    font-weight: 600;
+}
+
+#skills .progress{
+    height: 5px;
+}
+
+#skills .progress-bar {
+    background-color: teal;
+}
+
+/*End Skills*/
+
+/*Projects*/
+#projects {
+    margin-top: 40px;
+}
+
+#projects .row {
+    margin-top: 40px;
+}
+
+#projects h3 {
+    font-weight: 600;
+}
+
+#projects .project {
+    box-shadow: 0 0 5px 5px #888;
+    padding: 20px;
+}
+
+#projects .project p {
+    padding: 20px;
+}
+
+#projects .project button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#projects .project button:hover {
+    box-shadow: 0 0 3px 3px #888;
+}
+
+#projects .project button.cite {
+    background-color: teal;
+}
+
+#projects .project button.source-code {
+    background-color: purple;
+    margin-right: 0;
+}
+
+/*End Projects*/
+
+/*Footer*/
+
+footer {
+    margin-top: 50px;
+    background-color: teal;
+    color: white;
+}
+
+footer .row .col{
+    margin-top: 40px;
+}
+
+footer .row .col h4{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+footer #footer-social {
+    margin-top: 40px;
+}
+
+footer .row .col a{
+    margin-right: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 30px;
+    color:black;
+}
+
+footer .row .col a:hover{
+    cursor: pointer;
+    color:white;
+    background-color: black;
+
+}
+
+footer #copyright {
+    font-size: 20px;
+    color:white;
+}
+
+
+
+
+/*Media Queries*/
+
+@media (min-width:1200px){
+
+}
+
+@media (min-width:768px) and (max-width:1199px){
+
+}
+
+@media  (max-width:767px){
+
+    /*Navbar*/
+    #navbarSupportedContent ul li{
+        text-align: center;
+    }
+
+
+    /*Navbar - Ending */
+}
